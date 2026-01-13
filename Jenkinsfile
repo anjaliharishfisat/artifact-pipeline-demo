@@ -42,7 +42,7 @@ pipeline{
     success{
       echo 'Pipeline completed successfully'
     }
-    failiure{
+    failure{
       echo 'Pipeline failed-code blocked'
     }
   }
